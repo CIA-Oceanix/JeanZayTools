@@ -14,7 +14,7 @@ Information and Sample code for using Jean ZAY supercomputer through Melody reso
 See http://www.idris.fr/jean-zay/pre-post/jean-zay-jupyter-notebook.html
 
 ### Considered/tested DL environments
-- xxxx (contact: xxxx)
+- pytorch-gpu/py3/1.4.0, including pytorch and scikit-learn (contact: ronan.fablet@imt-atlantique.fr)
 
 ### Interactive execution mode 
 - See http://www.idris.fr/jean-zay/gpu/jean-zay-gpu-exec_interactif.html
@@ -25,5 +25,5 @@ See http://www.idris.fr/jean-zay/pre-post/jean-zay-jupyter-notebook.html
 4. ./python my_main
 
 ### Batch mode
-- See 
+- See http://www.idris.fr/jean-zay/gpu/jean-zay-gpu-exec_mono_batch.html
 
