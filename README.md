@@ -19,10 +19,11 @@ See http://www.idris.fr/jean-zay/pre-post/jean-zay-jupyter-notebook.html
 ### Interactive execution mode 
 - See http://www.idris.fr/jean-zay/gpu/jean-zay-gpu-exec_interactif.html
 - An example below for the execution on a single GPU
-1. salloc --ntasks=1 -A yrf@gpu --cpus-per-task=10 --gres=gpu:1 --hint=nomultithread --partition=gpu_p1
-2. module load xxx (see above for the environment to be loaded)
-3. ./python main
+1. module load pytorch-gpu/py3/1.4.0 (see above for the environment to be loaded)
+2. salloc --ntasks=1 -A yrf@gpu --cpus-per-task=10 --gres=gpu:1 --hint=nomultithread --partition=gpu_p1
+3. conda activate pytorch-gpu-1.4.0
+4. ./python my_main
 
-### Interactive execution mode 
-
+### Batch mode
+- See 
 
